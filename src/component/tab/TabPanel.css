@@ -1,0 +1,32 @@
+.MuiTabs-root {
+  background-color: var(--base-background);
+  height: 74px;
+}
+
+.MuiTab-wrapper {
+  font-weight: normal;
+  text-transform: none;
+  font-family: var(--base-font);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.MuiButtonBase-root.MuiTab-root {
+  width: 255px;
+  height: 74px;
+  opacity: 0.8;
+}
+
+
+.MuiTab-textColorInherit.Mui-selected {
+  color: var(--base-blue);
+  background: linear-gradient(to top, var(--base-background), rgba(2, 88, 255, 0.1));
+}
+
+.PrivateTabIndicator-root-25.PrivateTabIndicator-colorSecondary-27.MuiTabs-indicator {
+  background-color: var(--base-blue);
+  top: 0px;
+}
+

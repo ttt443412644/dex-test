@@ -1,0 +1,227 @@
+{
+  "properties": [
+    {
+      "id": 2,
+      "name": "Год выпуска",
+      "type": "Number"
+    },
+    {
+      "id": 3,
+      "name": "Тип топлива",
+      "type": "Dropdown"
+    },
+    {
+      "id": 5,
+      "name": "Двигатель",
+      "type": "String"
+    },
+    {
+      "id": 7,
+      "name": "Кузов",
+      "type": "Dropdown"
+    },
+    {
+      "id": 8,
+      "name": "Тест",
+      "type": "Dropdown"
+    },
+    {
+      "id": 9,
+      "name": "Тест",
+      "type": "Dropdown"
+    },
+    {
+      "id": 10,
+      "name": "мивыа",
+      "type": "Number"
+    },
+    {
+      "id": 11,
+      "name": "ваи",
+      "type": "Dropdown"
+    },
+    {
+      "id": 13,
+      "name": "пукпук",
+      "type": "String"
+    },
+    {
+      "id": 14,
+      "name": "онеоен",
+      "type": "Dropdown"
+    },
+    {
+      "id": 15,
+      "name": "ggg",
+      "type": "Number"
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "name": "Mercedes S550 4matic",
+      "description": "Очень длинный текст 22333666ssssds dsf sdfds f ds 011",
+      "price": 112999,
+      "image_url": "https://sales.mercedes-orenburg.ru/image/cache/catalog/cars/order_0852438909_uploaded/15574639295220015-1920x1080_crop.jpg",
+      "price_dt": 1579953379965
+    },
+    {
+      "id": 2,
+      "name": "Land Rover Vogue",
+      "description": "111",
+      "price": 65000,
+      "price_dt": 1579604290000,
+      "image_url": "https://sales.mercedes-orenburg.ru/image/cache/catalog/cars/order_0852438909_uploaded/15574639295220015-1920x1080_crop.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Опель",
+      "price": 16400,
+      "image_url": "https://sales.mercedes-orenburg.ru/image/cache/catalog/cars/order_0852438909_uploaded/15574639295220015-1920x1080_crop.jpg",
+      "price_dt": 1579954729817
+    },
+    {
+      "id": 5,
+      "name": "Мерседес",
+      "description": "ыыы",
+      "price": 5,
+      "image_url": "https://sales.mercedes-orenburg.ru/image/cache/catalog/cars/order_0852438909_uploaded/15574639295220015-1920x1080_crop.jpg",
+      "price_dt": 1579953493487
+    },
+    {
+      "id": 8,
+      "name": "Жигули",
+      "price": 5000,
+      "image_url": "https://sales.mercedes-orenburg.ru/image/cache/catalog/cars/order_0852438909_uploaded/15574639295220015-1920x1080_crop.jpg",
+      "price_dt": 1579954219010
+    },
+    {
+      "id": 9,
+      "name": "Москвич",
+      "price": 3000,
+      "image_url": "https://sales.mercedes-orenburg.ru/image/cache/catalog/cars/order_0852438909_uploaded/15574639295220015-1920x1080_crop.jpg",
+      "price_dt": 1579954297984
+    },
+    {
+      "id": 10,
+      "name": "Запорожец",
+      "description": "222",
+      "price": 2000,
+      "image_url": "https://sales.mercedes-orenburg.ru/image/cache/catalog/cars/order_0852438909_uploaded/15574639295220015-1920x1080_crop.jpg",
+      "price_dt": 1579954546300
+    },
+    {
+      "id": 11,
+      "name": "Икарус",
+      "description": "60 мест",
+      "price": 50000,
+      "image_url": "https://sales.mercedes-orenburg.ru/image/cache/catalog/cars/order_0852438909_uploaded/15574639295220015-1920x1080_crop.jpg",
+      "price_dt": 1579955246079
+    }
+  ],
+  "product_props": [
+    {
+      "id": 2,
+      "productId": 1,
+      "propertyId": 2,
+      "value": "2017"
+    },
+    {
+      "id": 3,
+      "productId": 1,
+      "propertyId": 3,
+      "value": "Бензин"
+    },
+    {
+      "id": 33,
+      "productId": 1,
+      "propertyId": 3,
+      "value": "Дизель"
+    },
+    {
+      "id": 5,
+      "productId": 1,
+      "propertyId": 5,
+      "value": "BSK"
+    },
+    {
+      "id": 6,
+      "productId": 1,
+      "propertyId": 5,
+      "value": "BSK"
+    },
+    {
+      "id": 7,
+      "productId": 1,
+      "propertyId": 5,
+      "value": "BSK"
+    },
+    {
+      "id": 8,
+      "productId": 1,
+      "propertyId": 5,
+      "value": "BSK"
+    },
+    {
+      "id": 9,
+      "productId": 1,
+      "propertyId": 5,
+      "value": "BSK"
+    },
+    {
+      "id": 10,
+      "productId": 1,
+      "propertyId": 5,
+      "value": "BSK"
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "email": "alex@dnestr.com",
+      "password": "qwertyuiopQ1!"
+    },
+    {
+      "email": "john-111@yandex.ru",
+      "password": "qwertyuiopQ1!",
+      "name": "Александр",
+      "surname": "Тарасов",
+      "id": 1579896700611
+    },
+    {
+      "email": "diwajo@mailinator.net",
+      "password": "Pa$$w0rd!",
+      "name": "Dieter Garner",
+      "surname": "Savage",
+      "id": 1579898997399
+    },
+    {
+      "email": "tt@tt.tt",
+      "password": "12345678aS!",
+      "name": "Ivan",
+      "surname": "Petrov",
+      "id": 1579899905554
+    },
+    {
+      "email": "qq@qq.qq",
+      "password": "Qwerty1!",
+      "name": "Qqq",
+      "surname": "Qqq",
+      "id": 1579900181408
+    },
+    {
+      "email": "Sasha982025@gmail.com",
+      "password": "12345678aA!",
+      "name": "ваив",
+      "surname": "ыфаа",
+      "id": 1579901336397
+    },
+    {
+      "email": "test@test.test",
+      "password": "Asd123**",
+      "name": "Тест",
+      "surname": "Тест",
+      "id": 1579939282202
+    }
+  ]
+}

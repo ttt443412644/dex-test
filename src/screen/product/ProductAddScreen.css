@@ -1,0 +1,144 @@
+
+.itemcardedit-container {
+  padding: 24px 95px 24px 24px;
+  display: flex;
+}
+
+
+.itemcardedit-container .button-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end; 
+
+}
+
+
+.itemcardedit-container .button {
+  margin-top: 0px;
+}
+
+.itemcardedit-container .cancel {
+  background: var(--base-red); 
+  margin-right: 30px;
+}
+.itemcardedit-container .save {
+  background: var(--base-green); 
+}
+
+.itemcardedit-container .title {
+  width: 100%;
+  height: 48px;
+
+  background: var(--base-lightgray); 
+  mix-blend-mode: normal;
+}
+
+.itemcardedit-container p {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: bold;
+}
+
+
+.form-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.form-container .fields{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  margin-left: 71px;
+}
+
+
+
+.form-container .label {
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 16px;
+
+  color: var(--base-black);
+}
+
+.form-container .label>span{
+  color: var(--base-red);
+}
+
+.form-container .field {
+  height: 32px;
+  border: 1px solid var(--base-border);
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 8px;
+  color: var(--base-gray);
+  font-size: 16px;
+  line-height: 19px;
+  width: 287px;
+}
+
+.form-container .textarea {
+  min-width: 540px;
+  min-height: 112px;
+  max-width: 100%;
+  max-height: 200px;
+}
+
+.form-container .field::placeholder {
+  color: var(--base-placeholder);
+  opacity: 1;
+  margin-left: 20px;
+}
+
+.form-container .text-error {
+  color: var(--base-error);
+  font-size: 13px;
+  line-height: 16px;
+}
+
+
+.form-container .inputfile { 
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.form-container .file-label {
+  cursor: pointer;
+  display: block;
+  width: 287px;
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-container .file-label span{
+  color: var(--base-gray);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display:block;
+}
+
+.form-container .file-label * {
+  color: var(--base-blue);
+}
+
+
+
+
+
+
+

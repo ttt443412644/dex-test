@@ -1,0 +1,8 @@
+.radio-label span{
+  font-family: var(--base-font); 
+  font-style: normal;
+  font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+}
+
